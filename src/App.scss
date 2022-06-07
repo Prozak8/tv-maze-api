@@ -1,0 +1,19 @@
+@import './styles/utilities.scss';
+@import './styles/variables.scss';
+@import './styles/button.scss';
+@import './styles/input.scss';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #CAF0F8;
+  font-size: 14px;
+  min-height: 100vh;
+}
+
